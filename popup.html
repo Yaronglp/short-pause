@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body class="popup_body">
+
+  <div>
+    <h3 id="instruction" class="instruction popup_instruction"> Put in the number of minutes for your desired break time (120 minutes max).</h3>
+    <form id="timer_form">
+      <fieldset>
+          <legend>Setup Time</legend>
+          <input type="number" placeholder="Number of minutes..." id="timer_mins" class="form_input">
+          <div id="submit_wrapper">
+            <input type="button" value="submit" id="key_submit">
+          </div>
+      </fieldset>
+    </form>
+    <div id="popup_timer" class="info_timer info_start_timer hide_element">Timer</div>
+    <button type="button" id="clear_timer" class="clear_btn hide_element">Clear Timer</button>
+  </div>
+
+  <script type="text/javascript" src="js/controller/errorHandler.js"></script>
+  <script type="text/javascript" src="js/controller/form.js"></script>
+  <script type="text/javascript" src="js/controller/validate.js"></script>
+  <script type="text/javascript" src="js/popup.js"></script>
+
+</body>
+</html>
