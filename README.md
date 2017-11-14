@@ -1,6 +1,6 @@
-# Take a recess
+# Take a Recess
 
-**Take a recess - Chrome Extension (not in store).**
+**Take a Recess - Chrome Extension (not in store).**
 
 On this days, each one of us encounter on a weekly or daily basis the problem of staring at the computer screen for a long time, or the problem of not noticing how much time we spent on doing one simple task.
 Sometimes all our body and mind just need to take a break, a small refreshment from sitting on the cozy chair all day long, while staring at the computer screen.
