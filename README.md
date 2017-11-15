@@ -1,4 +1,4 @@
-# Short pause - Recess
+# Short pause
 
 **Chrome Extension (not in store).**
 
