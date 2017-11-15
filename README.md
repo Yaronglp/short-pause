@@ -1,4 +1,4 @@
-# Short pause
+# Short Pause
 
 **Chrome Extension (not in store).**
 
