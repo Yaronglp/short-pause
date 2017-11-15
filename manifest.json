@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "Take a Recess",
+  "name": "Short pause - Recess",
   "version": "1.01",
 
   "description": "Take a short refreshing break from your screen - we're timing you!",
@@ -14,7 +14,7 @@
       "default_icon": {
         "16": "images/icon16.png"
       },
-      "default_title": "Take a Recess",
+      "default_title": "Recess",
       "default_popup":"popup.html"
   },
 
