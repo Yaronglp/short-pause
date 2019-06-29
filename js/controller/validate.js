@@ -1,22 +1,17 @@
-var Validate = function(){
-
-  var that = {};
-
+let Validate = function(){
+  let that = {};
   let maxNumber = 120;
 
   function isBelowOrEqualMaxNumber(value){
-
     return value <= maxNumber;
   }
 
   function isNumberInput(value){
-
     return value && !isNaN(value) && isBelowOrEqualMaxNumber(value);
   }
 
   // For now, there is only validation check for numbers
   that.isInputValid = function(value){
-
     // convert the value from string to number or to NaN
     value *= 1;
 
@@ -24,8 +19,7 @@ var Validate = function(){
   };
 
   that.isValueNotEmpty = function(value){
-
-        return value !== undefined && value != null && value !== '';
+    return value !== undefined && value !== null && value !== '';
   };
 
   return that;

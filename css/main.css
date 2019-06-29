@@ -22,10 +22,11 @@ legend{
 
 #submit_wrapper #key_submit{
   float:right;
+  padding: 3px 15px;
   background:#5d6d65;
   outline:none !important;
   border:1px solid #000;
-  margin-top:7px;
+  margin-top:10px;
   border-radius:5px;
   color:#fff;
   box-shadow: 1px 1px 1px #5d6d65;
@@ -57,7 +58,7 @@ legend{
   width:150px;
   box-shadow: 1px 1px 1px #5d6d65;
   border-radius:7px;
-  padding:2px 0 2px 3px;
+  padding:5px;
 
 }
 

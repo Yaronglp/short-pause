@@ -1,7 +1,5 @@
-var Timer = function(){
-
-  var that = {};
-
+let Timer = function(){
+  let that = {};
   let second = 1000;
   let minute = 60 * second;
   let displayInterval;
@@ -9,29 +7,23 @@ var Timer = function(){
 
   // Activate timer on background
   function activateTimer(time){
-
     timeout = setTimeout(function(){
-
       clearInterval(displayInterval);
       chrome.tabs.create({url: chrome.extension.getURL('timeisup.html')});
-      localStorage.removeItem('TaB');
-
+      localStorage.removeItem('time');
     }, time);
   }
 
   // Interact with popup.html inorder to inform end user about count down
   function displayTimer(min){
-
       let sec = 0;
       let minutesStr;
       let secondsStr;
 
       displayInterval = setInterval(function(){
-
           if(sec > 0){
             --sec;
-          }
-          else if(min > 0){
+          } else if(min > 0){
               --min;
               sec = 59;
           }
@@ -47,23 +39,18 @@ var Timer = function(){
   }
 
   that.setTimer = function(min){
-
       if(min){
-
         let time = (min * minute);
 
         activateTimer(time);
         displayTimer(min);
-      }
-      else{
-
+      } else{
         ErrorHandler.timerError();
       }
   };
 
   that.clearTimer = function(){
-
-    localStorage.removeItem('TaB');
+    localStorage.removeItem('time');
     clearInterval(displayInterval);
     clearTimeout(timeout);
   };

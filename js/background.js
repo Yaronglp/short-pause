@@ -1,10 +1,8 @@
 chrome.windows.onRemoved.addListener(function(winId){
-  localStorage.removeItem('TaB');
+  localStorage.removeItem('time');
 });
 
-
 chrome.runtime.onMessage.addListener(function(message, sender){
-
   if(message.type === 'setTimer'){
       Timer.setTimer(message.minValue);
   }
