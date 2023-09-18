@@ -1,7 +1,7 @@
 {
-  "manifest_version": 3,
+  "manifest_version": 2,
   "name": "Short Pause",
-  "version": "1.01",
+  "version": "1.0.1",
 
   "description": "Take a short refreshing break from your screen - we're timing you!",
   "icons": {
@@ -15,7 +15,7 @@
         "16": "images/icon16.png"
       },
       "default_title": "Recess",
-      "default_popup":"popup.html"
+      "default_popup": "popup.html"
   },
 
   "background": {
